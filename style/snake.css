@@ -1,0 +1,40 @@
+.board {
+	left: 16px;
+	top: 16px;
+	
+	margin: 16px;
+	
+	background-color: rgb(0, 255, 0);
+}
+
+.snake {
+	position: absolute;
+	
+	width: 15px;
+	height: 15px;
+	
+	background-color: rgb(255, 0, 0);
+}
+.food {
+	position: absolute;
+	
+	width: 15px;
+	height: 15px;
+	
+	background-color: rgb(255, 0, 255);
+}
+
+#snake2 {
+	left: 16px;
+	top: 16px;
+}
+#snake1 {
+	left: 32px;
+	top: 16px;
+}
+#snake0 {
+	left: 48px;
+	top: 16px;
+	
+	background-color: rgb(0, 0, 255);
+}

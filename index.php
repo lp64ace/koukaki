@@ -11,7 +11,7 @@
 			$_SESSION['username'] = $username;
 			$_SESSION['logged_in'] = true;
 		
-			header('Location: dashboard.php');
+			header('Location: other.php');
 			exit();
 		} else {
 			$error_message = "Wrong password or username.";
@@ -26,10 +26,9 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="style/style.css">
-	</head>
 	<body>
+		<link rel="stylesheet" href="style/style.css">
+	
 		<div class="login-div">
 			<form method="POST" action="index.php">
 				<label for="username">Username</label>
